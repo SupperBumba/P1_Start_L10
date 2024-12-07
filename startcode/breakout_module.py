@@ -5,7 +5,7 @@ import pygame
 def setup_venster(breedte, hoogte):
     pygame.init()
     nieuw_venster = pygame.display.set_mode((breedte, hoogte))
-    pygame.display.set_caption('Breakout')
+    pygame.display.set_caption('Supper Breakout')
     return nieuw_venster
 
 
